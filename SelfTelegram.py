@@ -3,8 +3,8 @@ from pyrogram.types import Message
 import jdatetime
 import time
 
-API_ID = 1070574
-API_HASH = "b23074812559269d941253103c948eff"
+API_ID = 000000
+API_HASH = ""
 client = Client("GrayHat", API_ID, API_HASH)
 
 @client.on_message(filters.me)
